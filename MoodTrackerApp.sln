@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodTrackerApp.UI", "MoodTrackerApp\MoodTrackerApp.UI.csproj", "{32F6BC12-CEFA-46A5-BBE0-D4E50C0A1077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodTrackerApp.DataAccess", "MoodTrackerApp.DataAccess\MoodTrackerApp.DataAccess.csproj", "{ECEDF999-612C-4409-B39E-D1D9BB26387C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodTrackerApp.Entities", "MoodTrackerApp.Entities\MoodTrackerApp.Entities.csproj", "{701A7E64-8B50-4802-8D2F-A84119C64BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F6BC12-CEFA-46A5-BBE0-D4E50C0A1077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F6BC12-CEFA-46A5-BBE0-D4E50C0A1077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F6BC12-CEFA-46A5-BBE0-D4E50C0A1077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F6BC12-CEFA-46A5-BBE0-D4E50C0A1077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEDF999-612C-4409-B39E-D1D9BB26387C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEDF999-612C-4409-B39E-D1D9BB26387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEDF999-612C-4409-B39E-D1D9BB26387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEDF999-612C-4409-B39E-D1D9BB26387C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701A7E64-8B50-4802-8D2F-A84119C64BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701A7E64-8B50-4802-8D2F-A84119C64BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701A7E64-8B50-4802-8D2F-A84119C64BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701A7E64-8B50-4802-8D2F-A84119C64BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79BC8ADD-08BD-4D22-89BB-738033291B81}
+	EndGlobalSection
+EndGlobal

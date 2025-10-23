@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ScottPlot.WinForms" Version="5.1.57" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+		<PackageReference Include="System.Windows.Forms.DataVisualization" Version="1.0.0-prerelease.20110.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MoodTrackerApp.DataAccess\MoodTrackerApp.DataAccess.csproj" />
+		<ProjectReference Include="..\MoodTrackerApp.Entities\MoodTrackerApp.Entities.csproj" />
+	</ItemGroup>
+</Project>
